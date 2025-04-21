@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 import { Button, Input, Select, Tabs, TabsContent, TabsList, TabsTrigger, Textarea } from "@/components/ui";
 import { ClipboardCopy, CheckCircle, XCircle, Terminal, Cog } from 'lucide-react';
