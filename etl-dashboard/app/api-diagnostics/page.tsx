@@ -1,7 +1,7 @@
 import { Shield, Wrench, Zap } from "lucide-react"
 
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
-import { ApiDiagnostics } from "@/components/api/api-diagnostics"
+import ApiDiagnostics from "@/components/api/api-diagnostics"
 
 export const metadata = {
   title: "API Diagnostics",
