@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import ApiDiagnostics from '@/components/api/api-diagnostics';
 
