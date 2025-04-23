@@ -73,4 +73,28 @@ export async function GET(_request: NextRequest) {
   };
   
   return NextResponse.json(report);
+}
+
+export async function GET_DEBUG() {
+  const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY || '';
+  
+  return NextResponse.json({
+    apiBaseUrlConfigured: !!apiBaseUrl,
+    apiKeyConfigured: !!apiKey,
+    apiKeyFirstFourChars: apiKey ? apiKey.substring(0, 4) + '...' : 'Not configured',
+    apiBaseUrl: apiBaseUrl || 'Not configured'
+  });
+}
+
+export async function GET() {
+  const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY || '';
+  
+  return NextResponse.json({
+    apiBaseUrlConfigured: !!apiBaseUrl,
+    apiKeyConfigured: !!apiKey,
+    apiKeyFirstFourChars: apiKey ? apiKey.substring(0, 4) + '...' : 'Not configured',
+    apiBaseUrl: apiBaseUrl || 'Not configured'
+  });
 } 
