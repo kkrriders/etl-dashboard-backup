@@ -1,3 +1,5 @@
+"use client"
+
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
 import { AIStudio } from "@/components/ai/ai-studio"
 

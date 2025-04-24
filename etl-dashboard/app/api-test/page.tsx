@@ -1,3 +1,5 @@
+"use client"
+
 import { AuthTest } from "@/components/auth-test";
 
 export default function ApiTestPage() {

@@ -1,3 +1,5 @@
+"use client"
+
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
 import { PipelineBuilder } from "@/components/pipelines/pipeline-builder"
 

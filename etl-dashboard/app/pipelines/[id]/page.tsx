@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { ArrowLeft, Clock, Database, FileText, Play, Pause, RefreshCcw, Trash2 } from "lucide-react"
 

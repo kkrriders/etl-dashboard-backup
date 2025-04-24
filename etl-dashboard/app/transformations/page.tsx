@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Code, FileCode, FilterX, Plus, RefreshCw, Sparkles, Wand2 } from "lucide-react"
 

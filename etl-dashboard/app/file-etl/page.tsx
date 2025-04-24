@@ -1,3 +1,5 @@
+"use client"
+
 import { FileUploadETL } from '../../components/FileUploadETL';
 
 export const metadata = {

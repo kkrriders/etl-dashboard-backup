@@ -1,3 +1,5 @@
+"use client"
+
 import { Shield, Wrench, Zap } from "lucide-react"
 
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"

@@ -1,3 +1,5 @@
+"use client"
+
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
 import { PipelineOverview } from "@/components/dashboard/pipeline-overview"
 import { RecentActivity } from "@/components/dashboard/recent-activity"

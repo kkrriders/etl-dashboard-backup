@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Database, FolderArchive, Plus, Share2, TableProperties } from "lucide-react"
 
