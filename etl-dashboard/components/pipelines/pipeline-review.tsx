@@ -1,3 +1,5 @@
+"use client"
+
 import { Database, FileJson, Wand2 } from "lucide-react"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"

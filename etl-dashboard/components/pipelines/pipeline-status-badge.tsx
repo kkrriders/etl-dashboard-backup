@@ -1,3 +1,5 @@
+"use client"
+
 import { Activity, CheckCircle2, PauseCircle, XCircle } from "lucide-react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
