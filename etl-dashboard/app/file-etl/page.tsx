@@ -2,11 +2,6 @@
 
 import { FileUploadETL } from '../../components/FileUploadETL';
 
-export const metadata = {
-  title: 'File ETL Processing',
-  description: 'Upload and process files through the ETL pipeline',
-};
-
 export default function FileETLPage() {
   return (
     <div className="container mx-auto py-6 space-y-8">

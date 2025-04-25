@@ -5,11 +5,6 @@ import { Shield, Wrench, Zap } from "lucide-react"
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
 import ApiDiagnostics from "@/components/api/api-diagnostics"
 
-export const metadata = {
-  title: "API Diagnostics",
-  description: "Diagnose API connection and authentication issues",
-};
-
 export default function ApiDiagnosticsPage() {
   return (
     <div className="flex min-h-screen flex-col">
